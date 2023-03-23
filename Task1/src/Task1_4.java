@@ -1,17 +1,20 @@
-package Flow;
 
 public class Task1_4 {
 
     public void methodS (){
-        System.out.println("S");
+        System.out.println("s");
+    }
+
+    public void methodJ (){
+        System.out.println("j");
     }
 
     public void methodO (){
-        System.out.println("O");
+        System.out.println("o");
     }
 
     public void methodT (){
-        System.out.println("T");
+        System.out.println("t");
     }
 
 }
