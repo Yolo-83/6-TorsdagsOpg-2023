@@ -28,7 +28,7 @@ public class Main {
 
         for (int i = 0; i < persons.size(); i++) {
            if (persons.get(i).addCourse("Java 1.0")){
-              
+
            } else {
                if(persons.get(i) instanceof Student){
                    System.out.println(persons.get(i).getName() + "Har bestået");
