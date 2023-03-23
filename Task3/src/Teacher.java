@@ -6,6 +6,7 @@ public class Teacher extends Person {   // Denne klasse arver fra klassen 'Perso
     public Teacher(String name, ArrayList<String> canTeach) {
         super(name);
         this.canTeach = canTeach;
+        this.currentCourses = new ArrayList<>();
     }
 
 
