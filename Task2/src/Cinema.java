@@ -1,12 +1,19 @@
 package codeflow;
 
 public class Cinema {
+
+
     String[][] seats;
 
     // Række 0, sæde 0 er altid reserveret til direktøren og skal derfor have værdien X
     // Sæder, der ikke er reserveret, har værdien "O"
     public Cinema(int rows, int seats) {
-        this.seats[0][0] = "X";
+        // row = row -1;
+        // row -1;
+        row-= 1;
+        seat -= 1;
+        
+        this.seats[][0] = "X";
         this.seats = new String[rows][seats];
     }
 

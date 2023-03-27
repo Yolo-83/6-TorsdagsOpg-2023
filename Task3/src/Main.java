@@ -31,10 +31,10 @@ public class Main {
 
            } else {
                if(persons.get(i) instanceof Student){
-                   System.out.println(persons.get(i).getName() + "Har bestået");
+                   System.out.println(persons.get(i).getName() + "hHar bestået");
                }
                if(persons.get(i) instanceof Teacher){
-                   System.out.println(persons.get(i).getName() + "Kan ikke undervise i dette fag");
+                   System.out.println(persons.get(i).getName() + " kan ikke undervise i dette fag");
                }
            }
         }
